@@ -1,14 +1,14 @@
 import { useRouter } from 'next/router';
 import Button from '@mui/material/Button';
 
-export default function Home() {
+export default function Admin() {
   const router = useRouter();
 
   return (
     <>
-      前
-      <Button variant="contained" color="secondary" onClick={() => router.push('/admin')}>
-        前往後台
+      後
+      <Button variant="contained" color="secondary" onClick={() => router.push('/')}>
+        回到前台
       </Button>
     </>
   );
