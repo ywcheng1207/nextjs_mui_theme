@@ -1,4 +1,4 @@
-import AdminLayout from '../layouts/AdminLayouts';
+import AdminLayout from '../../layouts/AdminLayouts';
 import { useRouter } from 'next/router';
 import Button from '@mui/material/Button';
 

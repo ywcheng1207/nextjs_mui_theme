@@ -1,4 +1,4 @@
-import FrontLayout from './layouts/FrontLayout';
+import FrontLayout from '../layouts/FrontLayout';
 import { useRouter } from 'next/router';
 import Button from '@mui/material/Button';
 
